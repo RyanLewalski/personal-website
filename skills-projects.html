@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills & Projects</title>
+    <link rel="stylesheet" href="style/skills-project.css">
+    <script src="skills-project.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="skills-projects.html" class="nav-link">Skills & Projects</a>
+            <a href="experience.html" class="nav-link">Experience</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+    </div>
+    
+    <header>
+        <h1>Skills & Projects</h1>
+        <p class="subtitle">Showcasing my expertise and creative work</p>
+    </header>
+    
+    <div class="container">
+        <section class="skills-section">
+            <h2 class="section-title">Skills</h2>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search skills...">
+            </div>
+            
+            <div class="skills-categories">
+                <button class="category-button" data-category="all">All Skills</button>
+                <button class="category-button" data-category="programming">Programming</button>
+                <button class="category-button" data-category="frameworks">Frameworks</button>
+                <button class="category-button" data-category="technologies">Technologies</button>
+                <button class="category-button" data-category="soft">Soft Skills</button>
+            </div>
+            
+            <!-- Skill groups will be created here with the JavaScript -->
+        </section>
+        
+        <section class="projects-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="images/personal-website.png" alt="Project Image" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Website</h3>
+                        <p>A responsive personal website showcasing my portfolio, skills, and contact information.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Project Link</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="images/time-management-web-app-example.png" alt="Project Image" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Work Time Management App</h3>
+                        <p>An application to track work hours. Amount made, hours worked, and previous pay periods are viewable.</p>
+                        <p>This was requested to be made by my dad.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Project Link</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
