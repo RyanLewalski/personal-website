@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             { 
                 name: "C#", 
-                level: "Beginner", 
+                level: "Advanced", 
                 icon: "", 
                 detail: "Object-oriented programming, LINQ and .NET framework",
                 bg: "images/c-sharp.png" 
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         frameworks: [
             { 
                 name: "React", 
-                level: "Intermediate", 
+                level: "Advanced", 
                 icon: "", 
                 detail: "Component architecture, Hooks, Context API and Redux",
                 bg: "images/react.png" 
@@ -65,6 +65,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 icon: "", 
                 detail: "Express, REST APIs and middleware",
                 bg: "images/node-js.png" 
+            },
+            {
+                name: ".NET Core",
+                level: "Advanced",
+                icon: "",
+                detail: "Cross-Platform, Modular and High Performance",
+                bg: "images/.net.png"
             }
         ],
         technologies: [
