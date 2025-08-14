@@ -38,11 +38,14 @@ const experiences = [
         logoUrl: "images/MCE-logo.jpeg",
         period: "May 2025 - August 2025",
         yearPosition: 0.75, // (0-1)
-        description: "Assisted in the learning about the development of new products in the company, conducted tests, and documented results.",
+        description: "Engineered an internal web application for automated generation of detailed elevator traffic analysis reports from certain data sets. ",
         achievements: [
-            "To be determined",
+            "Used Visio and Mermaid to produce detailed diagrams for the web applications architecture and flow.",
+            "Used .Net Core and the Entity Framework for data persistence.",
+            "Implmented essential web services through the construction of Web APIs.",
+            "SQL Express used for Database, iText 7 and Scriban used for PDF creation.",
         ],
-        skills: ["SQL", "C#"],
+        skills: ["Programming Languages: SQL & C#", "Algorithms: Binary Search & Multiple Elevator Traffic Algorithms", "Database Knowledge"],
     },
     
 ];
